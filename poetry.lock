@@ -1550,35 +1550,13 @@ diagrams = ["jinja2", "railroad-diagrams"]
 
 [[package]]
 name = "pytensor"
-version = "2.30.3"
+version = "2.30.3+7.ge98cbbcfb"
 description = "Optimizing compiler for evaluating mathematical expressions on CPUs and GPUs."
 optional = false
 python-versions = "<3.14,>=3.10"
 groups = ["main"]
-files = [
-    {file = "pytensor-2.30.3-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:2302a9589660bf249f7b5c55c93846a2ce3b9e3025c71936ae8e9f15bb9b957b"},
-    {file = "pytensor-2.30.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:688771a17299aa7da6917a667bd3ace9c3c4eaf3ff3fc559b20f2a6381f9e9b9"},
-    {file = "pytensor-2.30.3-cp310-cp310-musllinux_1_2_i686.whl", hash = "sha256:1f86b4f1e672610e7a360b8af86a854df04f13aced591acf2cf001490e340954"},
-    {file = "pytensor-2.30.3-cp310-cp310-musllinux_1_2_x86_64.whl", hash = "sha256:96311f64d37116c123ac277e90cda5453c01291f7c64c635de601c47c2aaefc5"},
-    {file = "pytensor-2.30.3-cp310-cp310-win_amd64.whl", hash = "sha256:93321a86e2e237e1e416d572188084ee883001f1f95dd2062d4fa07192528bbf"},
-    {file = "pytensor-2.30.3-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:31800cf932816d12d66103bdcb9e66b9ad238e2e548cf31fbbc2271886d2c516"},
-    {file = "pytensor-2.30.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:cf17d04a4f752ac2de6192951e0d2056425da770d49bc5d08b7a392a59b92265"},
-    {file = "pytensor-2.30.3-cp311-cp311-musllinux_1_2_i686.whl", hash = "sha256:cdc48fc5c57372a9c8f557eb3d6be680a66f092b90e40eff0e4c1b949651bf92"},
-    {file = "pytensor-2.30.3-cp311-cp311-musllinux_1_2_x86_64.whl", hash = "sha256:db2b52f1ad03fda64855406a401d34e497ce7be82437f351948665ec8f4ce1bd"},
-    {file = "pytensor-2.30.3-cp311-cp311-win_amd64.whl", hash = "sha256:96167679722e5aaae2851134611f1e08bdb54798e4a60317a023ec4dee2ed232"},
-    {file = "pytensor-2.30.3-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:08b192ff2fba6790121476b7e09e85ceef339d1b36999bda57c1ba27298640d6"},
-    {file = "pytensor-2.30.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:a855d58ddd2f3786d8ae6e2f0a035174bd44d7ec9509b6599f6a79c92629a732"},
-    {file = "pytensor-2.30.3-cp312-cp312-musllinux_1_2_i686.whl", hash = "sha256:6a9b6eb78d26f354448c350ec9dae23f1d0ef39af691579f9d63af1830582a34"},
-    {file = "pytensor-2.30.3-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:aa82a3fd58f72be14dcc135922ea381f18258b4adc4cda836b5d30776cf688e8"},
-    {file = "pytensor-2.30.3-cp312-cp312-win_amd64.whl", hash = "sha256:4d6ce423f6bfeafd14bc8b368b725b676446aaf61718ccc5bad5f6220456e5ad"},
-    {file = "pytensor-2.30.3-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:6d9fda3483480fa9dd608b7abcafe7474ed3533418b36f6ba1803b9638c9c76c"},
-    {file = "pytensor-2.30.3-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:5d0bffa45cee88c71b2a62badc0af10eacd217039170e4943293e3f649002e01"},
-    {file = "pytensor-2.30.3-cp313-cp313-musllinux_1_2_i686.whl", hash = "sha256:4a458cde51fb41e2bf0dace5ae0319838714049f84b293c34dd7ae7b37cb3af4"},
-    {file = "pytensor-2.30.3-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:b37aafe61c843da51e1cbd52e3fa21c056795d28c0ca6e1a0fb82fe60437a7eb"},
-    {file = "pytensor-2.30.3-cp313-cp313-win_amd64.whl", hash = "sha256:5bc16fb133ccbc532017e25798456c3fd722362241ee64a0397846e4ef2d1ddc"},
-    {file = "pytensor-2.30.3-py2.py3-none-any.whl", hash = "sha256:10dc3956acf0d8673b84596bdf9259a5509a3b600cdc06026c0c2bf1b4cf4628"},
-    {file = "pytensor-2.30.3.tar.gz", hash = "sha256:d9f591cea045c72df520d68677bf7422c425df3a48d3e3173914e04536cd7d7f"},
-]
+files = []
+develop = false
 
 [package.dependencies]
 cons = "*"
@@ -1597,6 +1575,10 @@ jax = ["jax", "jaxlib"]
 numba = ["llvmlite", "numba (>=0.57)"]
 rtd = ["pydot", "pydot-ng", "pydot2", "pygments", "sphinx (>=5.1.0,<6)"]
 tests = ["coverage (>=5.1)", "pre-commit", "pytest", "pytest-benchmark", "pytest-cov (>=2.6.1)", "pytest-mock", "pytest-sphinx"]
+
+[package.source]
+type = "directory"
+url = "../pytensor"
 
 [[package]]
 name = "python-dateutil"
@@ -1916,6 +1898,34 @@ files = [
     {file = "rpds_py-0.24.0-pp39-pypy39_pp73-musllinux_1_2_x86_64.whl", hash = "sha256:369d9c6d4c714e36d4a03957b4783217a3ccd1e222cdd67d464a3a479fc17796"},
     {file = "rpds_py-0.24.0-pp39-pypy39_pp73-win_amd64.whl", hash = "sha256:24795c099453e3721fda5d8ddd45f5dfcc8e5a547ce7b8e9da06fecc3832e26f"},
     {file = "rpds_py-0.24.0.tar.gz", hash = "sha256:772cc1b2cd963e7e17e6cc55fe0371fb9c704d63e44cacec7b9b7f523b78919e"},
+]
+
+[[package]]
+name = "ruff"
+version = "0.11.6"
+description = "An extremely fast Python linter and code formatter, written in Rust."
+optional = false
+python-versions = ">=3.7"
+groups = ["dev"]
+files = [
+    {file = "ruff-0.11.6-py3-none-linux_armv6l.whl", hash = "sha256:d84dcbe74cf9356d1bdb4a78cf74fd47c740bf7bdeb7529068f69b08272239a1"},
+    {file = "ruff-0.11.6-py3-none-macosx_10_12_x86_64.whl", hash = "sha256:9bc583628e1096148011a5d51ff3c836f51899e61112e03e5f2b1573a9b726de"},
+    {file = "ruff-0.11.6-py3-none-macosx_11_0_arm64.whl", hash = "sha256:f2959049faeb5ba5e3b378709e9d1bf0cab06528b306b9dd6ebd2a312127964a"},
+    {file = "ruff-0.11.6-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:63c5d4e30d9d0de7fedbfb3e9e20d134b73a30c1e74b596f40f0629d5c28a193"},
+    {file = "ruff-0.11.6-py3-none-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:26a4b9a4e1439f7d0a091c6763a100cef8fbdc10d68593df6f3cfa5abdd9246e"},
+    {file = "ruff-0.11.6-py3-none-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:b5edf270223dd622218256569636dc3e708c2cb989242262fe378609eccf1308"},
+    {file = "ruff-0.11.6-py3-none-manylinux_2_17_ppc64.manylinux2014_ppc64.whl", hash = "sha256:f55844e818206a9dd31ff27f91385afb538067e2dc0beb05f82c293ab84f7d55"},
+    {file = "ruff-0.11.6-py3-none-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:1d8f782286c5ff562e4e00344f954b9320026d8e3fae2ba9e6948443fafd9ffc"},
+    {file = "ruff-0.11.6-py3-none-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:01c63ba219514271cee955cd0adc26a4083df1956d57847978383b0e50ffd7d2"},
+    {file = "ruff-0.11.6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:15adac20ef2ca296dd3d8e2bedc6202ea6de81c091a74661c3666e5c4c223ff6"},
+    {file = "ruff-0.11.6-py3-none-musllinux_1_2_aarch64.whl", hash = "sha256:4dd6b09e98144ad7aec026f5588e493c65057d1b387dd937d7787baa531d9bc2"},
+    {file = "ruff-0.11.6-py3-none-musllinux_1_2_armv7l.whl", hash = "sha256:45b2e1d6c0eed89c248d024ea95074d0e09988d8e7b1dad8d3ab9a67017a5b03"},
+    {file = "ruff-0.11.6-py3-none-musllinux_1_2_i686.whl", hash = "sha256:bd40de4115b2ec4850302f1a1d8067f42e70b4990b68838ccb9ccd9f110c5e8b"},
+    {file = "ruff-0.11.6-py3-none-musllinux_1_2_x86_64.whl", hash = "sha256:77cda2dfbac1ab73aef5e514c4cbfc4ec1fbef4b84a44c736cc26f61b3814cd9"},
+    {file = "ruff-0.11.6-py3-none-win32.whl", hash = "sha256:5151a871554be3036cd6e51d0ec6eef56334d74dfe1702de717a995ee3d5b287"},
+    {file = "ruff-0.11.6-py3-none-win_amd64.whl", hash = "sha256:cce85721d09c51f3b782c331b0abd07e9d7d5f775840379c640606d3159cae0e"},
+    {file = "ruff-0.11.6-py3-none-win_arm64.whl", hash = "sha256:3567ba0d07fb170b1b48d944715e3294b77f5b7679e8ba258199a250383ccb79"},
+    {file = "ruff-0.11.6.tar.gz", hash = "sha256:bec8bcc3ac228a45ccc811e45f7eb61b950dbf4cf31a67fa89352574b01c7d79"},
 ]
 
 [[package]]
@@ -2240,4 +2250,4 @@ test = ["hypothesis", "packaging", "pytest", "pytest-cov"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12,<3.14"
-content-hash = "1560de388f4796b7bdee342aea59189b4c114dcec3efcfb56e8f655773ffa844"
+content-hash = "921839de17300ca93cf8adf42552f1ed53d60ed9010d8fc8e313825825b855f3"

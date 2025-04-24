@@ -5,7 +5,7 @@ description = "Generating themes algorithmically based on existing themes."
 authors = [{ name = "peppapig450", email = "peppapig450@pm.me" }]
 readme = "README.md"
 requires-python = ">=3.12,<3.14"
-dependencies = ["numpy (>=2.2.5,<3.0.0)", "pandas (>=2.2.3,<3.0.0)", "scikit-learn (>=1.6.1,<2.0.0)", "pymc (>=5.22.0,<6.0.0)", "arviz (>=0.21.0,<0.22.0)", "deap (>=1.4.2,<2.0.0)", "cma (>=4.0.0,<5.0.0)", "matplotlib (>=3.10.1,<4.0.0)", "ipykernel (>=6.29.5,<7.0.0)"]
+dependencies = ["numpy (>=2.2.5,<3.0.0)", "pandas (>=2.2.3,<3.0.0)", "scikit-learn (>=1.6.1,<2.0.0)", "pymc (>=5.22.0,<6.0.0)", "arviz (>=0.21.0,<0.22.0)", "deap (>=1.4.2,<2.0.0)", "cma (>=4.0.0,<5.0.0)", "matplotlib (>=3.10.1,<4.0.0)", "ipykernel (>=6.29.5,<7.0.0)", "pytensor @ file:///home/nick/Projects/pytensor"]
 
 
 [build-system]
@@ -14,4 +14,5 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.group.dev.dependencies]
 nbstripout = "^0.8.1"
+ruff = "^0.11.6"
 
